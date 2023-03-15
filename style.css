@@ -6,5 +6,31 @@
 .container{
     background-color: cadetblue;
     min-height: 100vh;
-    border: 7px solid pink ;
+    border: 7px solid skyblue ;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+.top_section{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.top_section h4{
+    text-align: end;
+    font-size: 30px;
+}
+.image_container img{
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    /* overflow: hidden; */
 }
